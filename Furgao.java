@@ -4,7 +4,9 @@ public class Furgao extends Veiculo{
     
 
     public Furgao(String marca, int ano) {
-        super.marca = marca;
+        super(marca, ano);
+
+        this.marca = marca;
         this.ano = ano;
     }
 
